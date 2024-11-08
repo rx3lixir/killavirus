@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-green-500 {
+  transition: background-color 0.2s ease;
+}
+.bg-gray-300:hover {
+  background-color: #e2e8f0; /* Slightly lighter gray on hover */
+}
